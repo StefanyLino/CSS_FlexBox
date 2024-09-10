@@ -1,0 +1,25 @@
+/* Device breakpoints
+telas pequenas: 600px 
+celulares: 600px até 768px
+tablets: 769px até 992px
+notebooks:993px até 1200px
+telas(grandes): acima de 1200px
+*/
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section.coluna{
+        flex: 1 1 50%
+    }
+}
+/* Notebooks */
+@media screen and (min-width: 992px){
+    section.coluna{
+        flex: 1 1 25%
+    }
+}
+/* Telas grandes */
+@media screen and (min-width: 2000px) {
+    section.coluna{
+        flex: 1 1 100%
+    }
+}
