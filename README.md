@@ -5,4 +5,4 @@
 PROJETOS:
 - Teste FlexBox
 - Polaroids
-- Desafio (Jogo FlexBox Froggy)
+- Desafio (Jogo FlexBox Froggy, CSS Diner)
